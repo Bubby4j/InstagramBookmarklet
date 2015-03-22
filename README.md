@@ -3,7 +3,8 @@ A bookmarklet for downloading photos off the Instagram website (PC only)
 
 # Usage
 Run the bookmarklet and then CTRL + CLICK any image on someone's instagram profile to download it at full resolution.
-
+[Hello World!][1]
+[1]:javascript:alert('Hello World')
 # Bookmarklet
 Drag this to your bookmarks bar
 [InstagramDownload][1]
