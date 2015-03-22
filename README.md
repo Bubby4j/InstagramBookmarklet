@@ -9,11 +9,11 @@ Drag this to your bookmarks bar
 [InstagramDownload](javascript:var imgs=$('.pgmiImageLink'\);for(i=0;i<imgs.length;i++\){var url=imgs.find('.iImage'\)[i].style.backgroundImage.replace("url(",""\).replace("\)",""\);$(imgs[i]\).attr('href',url\);$(imgs[i]\).attr('download',i+'.jpg'\);})
 
 # Source
-  var imgs = $('.pgmiImageLink');
-  for(i = 0; i < imgs.length; i++)
-  {
-    var url = imgs.find('.iImage')[i].style.backgroundImage.replace("url(", "").replace(")","");
-    $(imgs[i]).attr('href', url);
-    $(imgs[i]).attr('download', i + '.jpg');
-  }
+    var imgs = $('.pgmiImageLink');
+    for(i = 0; i < imgs.length; i++)
+    {
+        var url = imgs.find('.iImage')[i].style.backgroundImage.replace("url(", "").replace(")","");
+        $(imgs[i]).attr('href', url);
+        $(imgs[i]).attr('download', i + '.jpg');
+    }
   
