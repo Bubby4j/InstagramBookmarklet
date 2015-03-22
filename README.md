@@ -9,11 +9,12 @@ Drag this to your bookmarks bar
 <a href="javascript:var imgs=$('.pgmiImageLink');for(i=0;i<imgs.length;i++){var url=imgs.find('.iImage')[i].style.backgroundImage.replace("url(","").replace(")","");$(imgs[i]).attr('href',url);$(imgs[i]).attr('download',i+'.jpg');}">InstagramDownload</a>
 
 # Source
-    var imgs = $('.pgmiImageLink');
-    for(i = 0; i < imgs.length; i++)
-    {
-        var url = imgs.find('.iImage')[i].style.backgroundImage.replace("url(", "").replace(")","");
-        $(imgs[i]).attr('href', url);
-        $(imgs[i]).attr('download', i + '.jpg');
-    }
-  
+```javascript
+var imgs = $('.pgmiImageLink');
+for(i = 0; i < imgs.length; i++)
+{
+    var url = imgs.find('.iImage')[i].style.backgroundImage.replace("url(", "").replace(")","");
+    $(imgs[i]).attr('href', url);
+    $(imgs[i]).attr('download', i + '.jpg');
+}
+```
